@@ -1,7 +1,11 @@
 .intro {
-    background-color: yellow;
-  }
+  background-color: yellow;
+}
 
 .foot {
   background-color: red;
+}
+
+.menu {
+  background-color: blue;
 }
