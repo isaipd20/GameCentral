@@ -26,3 +26,14 @@ function timer(){
       }
   }, 1000);
 }
+
+function timer2(){
+  var sec = 20;
+  var timer = setInterval(function(){
+      document.getElementById('safeTimerDisplay').innerHTML='00:'+sec;
+      sec--;
+      if (sec < 0) {
+          clearInterval(timer);
+      }
+  }, 10);
+}
