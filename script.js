@@ -38,17 +38,6 @@ function timer2(){
   }, 100);
 }
 
-function timer3(){
-  var sec = 10;
-  var timer = setInterval(function(){
-      document.getElementById('safeTimerDisplay').innerHTML='00:'+sec;
-      sec--;
-      if (sec < 0) {
-          clearInterval(timer);
-      }
-  }, 10);
-}
-
 function myFunction() {
   document.getElementById("demo1").innerHTML = "Hello Dolly!";
   document.getElementById("demo2").innerHTML = "How are you?";
