@@ -11,11 +11,6 @@ function changeC() {
   button.style.backgroundColor = "blue";
 }
 
-function changeC() {
-  const button = document.getElementById("myButton");
-  button.style.backgroundColor = "green";
-}
-
 function timer(){
   var sec = 30;
   var timer = setInterval(function(){
