@@ -32,3 +32,8 @@ function myFunction() {
   document.getElementById("demo1").innerHTML = "Hello Dolly!";
   document.getElementById("demo2").innerHTML = "How are you?";
 }
+
+function myFunction2() {
+  document.getElementById("demo1").innerHTML = "I', doing good";
+  document.getElementById("demo2").innerHTML = "Thank you";
+}
